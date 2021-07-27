@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<style type="text/css">
+   .print
+   {
+	   width:100px;
+	   height:35px;
+	   line-height:35px;
+	   float: right;
+	   text-align:center;
+	   border:none;
+	   border-radius:20px;
+	   background:linear-gradient(150deg,#97c74e 0%,#2ab9a5 100%);
+	   margin-bottom:20px;
+	   cursor:pointer;
+	   color:#fff;
+	   font-family: 'Muli', sans-serif;
+   }
+</style>
+
+
+  <script> 
+        function printDiv() { 
+            var divContents = document.getElementById("panel").innerHTML; 
+            var a = window.open('', '', 'height=800, width=800'); 
+            a.document.write('<html>'); 
+            a.document.write('<body > <h1>Div contents are <br>'); 
+            a.document.write(divContents); 
+            a.document.write('</body></html>'); 
+            a.document.close(); 
+            a.print(); 
+        } 
+    </script> 
+
+
+
+</head>
+
+<body>
+
+
+
+<div id="panel">
+<table style="border:1px solid #4cbd89;" width="100%" border="0" cellpadding="0" cellspacing="0" class="tb">
+  <tbody>
+    <tr>
+      <td>&nbsp;</td>
+      <td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+          <tr>
+            <td width="50%" height="49" valign="bottom" style=" font-size:20px; color:#d04e00; font-weight:800; font-family: 'Muli', sans-serif;">&nbsp;</td>
+            <td width="50%" valign="bottom" style=" font-size:30px; text-align: right; color:#4cbd89; font-weight:800; font-family: 'Muli', sans-serif;">Invoice</td>
+            </tr>
+          <tr>
+            <td style=" font-size:15px; color:#000; padding:5px; font-family: 'Roboto', sans-serif;" ><strong>GST No</strong> : ABDJEWFO3432EF4 </td>
+            <td style=" font-size:15px; color:#000; padding:5px; font-family: 'Roboto', sans-serif;" >&nbsp;</td>
+            </tr>
+          <tr>
+            <td style=" font-size:15px; color:#000; padding:5px; font-family: 'Roboto', sans-serif;"><strong>Pan No</strong> : DFF43G54G5456</td>
+            <td style=" font-size:15px; color:#000; padding:5px; font-family: 'Roboto', sans-serif;">&nbsp;</td>
+          </tr>
+          </tbody>
+        </table></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="36" colspan="4">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="3%">&nbsp;</td>
+      <td colspan="2"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="tb1">
+        <tbody>
+          <tr>
+            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <td colspan="2" valign="bottom" style=" font-size:18px; color:#4cbd89;  padding:12px 5px; font-weight:800; font-family: 'Muli', sans-serif;">Shipping Address</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="11%" height="25"><strong><span style=" font-size:13px; color:#000; padding:5px; font-family: 'Muli', sans-serif;">Client Name </span></strong></td>
+                  <td width="55%"><span style=" font-size:13px; color:#000; padding:5px; font-family: 'Muli', sans-serif;">Mr.Ranjith Kumar</span></td>
+                  <td width="21%" align="right"><strong><span style=" font-size:13px; color:#000; padding:5px; font-family: 'Muli', sans-serif;">Invoice Date</span></strong></td>
+                  <td width="13%"><span style=" font-size:13px; color:#000; padding:5px; font-family: 'Muli', sans-serif;">19 July 2021</span></td>
+                </tr>
+                <tr>
+                  <td height="25"><strong><span style=" font-size:13px; color:#000; padding:5px; font-family: 'Muli', sans-serif;">Address</span></strong></td>
+                  <td><span style="font-size:13px; color:#000; padding:5px; font-family: 'Muli', sans-serif;">Sri Sai Green City, A Block 4th Floor 401, Gayathri Nagar, Hyderabad - 500018</span></td>
+                  <td align="right"><strong><span style=" font-size:13px; color:#000; padding:5px; font-family: 'Muli', sans-serif;">Invoice Number</span></strong></td>
+                  <td><span style=" font-size:13px; color:#000; padding:5px; font-family: 'Muli', sans-serif;">#DDSF455</span></td>
+                </tr>
+                </tbody>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="31" >&nbsp;</td>
+          </tr>
+          <tr>
+            <td><table  width="100%" border="1" bordercolor="#b3dac8" cellpadding="0" cellspacing="0" class="tb2">
+              <tbody>
+                <tr style=" font-size:13px; color:#fff; background-color: #4cbd89; padding:5px; font-family: 'Muli', sans-serif;">
+                  <td width="5%" height="30" align="center"><strong>S.N</strong></td>
+                  <td width="40%" align="center"><strong>Description </strong></td>
+                  <td width="10%" align="center"><strong>Unit Price </strong></td>
+                  <td width="7%" align="center"><strong>Qty </strong></td>
+                  <td width="10%" align="center"><strong>Amount</strong></td>
+                  <td width="8%" align="center"><strong>Rate </strong></td>
+                  <td width="10%" align="center"><strong>Tax Amount</strong></td>
+                  <td width="10%" align="center"><strong>Total Amount</strong></td>
+                  </tr>
+                <tr style=" font-size:13px; color:#000; padding:5px; line-height: 25px; font-family: 'Roboto', sans-serif;">
+                  <td height="30" align="center">1.</td>
+                  <td align="center">Plantronics Blackwire C5220 Headset - Stereo - USB Type A - Wired - 20HZ
+ -- 20kHz Over The Head | B079GY78JJ(4Y-VSV7-B4Q3) HSN:8518</td>
+                  <td align="center">&#8377; 8, 635.59</td>
+                  <td align="center">1</td>
+                  <td align="center">&#8377; 8, 635.59</td>
+                  <td align="center">18%</td>
+                  <td align="center">&#8377; 1, 554.41</td>
+                  <td align="center">&#8377; 10, 190.00</td>
+                  </tr>
+                <tr style=" font-size:13px; color:#000; padding:5px; font-family: 'Muli', sans-serif;">
+                  <td height="30" align="center">&nbsp;</td>
+                  <td align="center">&nbsp;</td>
+                  <td align="center">&nbsp;</td>
+                  <td align="center">&nbsp;</td>
+                  <td align="center">&nbsp;</td>
+                  <td align="center">&nbsp;</td>
+                  <td align="center"><strong>SUB TOTAL</strong></td>
+                  <td align="center"><strong>&#8377; 10, 190.00</strong></td>
+                  </tr>
+              </tbody>
+            </table></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><table width="100%" border="1" bordercolor="#b3dac8" cellpadding="0" cellspacing="0" class="tb2">
+              <tbody>
+                <tr style=" font-size:13px; color:#000; padding:5px; font-family: 'Muli', sans-serif;">
+                  <td width="7%" height="48" align="center">&nbsp;</td>
+                  <td width="54%" align="center">&nbsp;</td>
+                  <td width="21%" align="center">Add CGST : <br>Add SGST :</td>
+                  <td width="18%" align="center">-</td>
+                </tr>
+                <tr style=" font-size:13px; color:#000; padding:5px; font-family: 'Muli', sans-serif;">
+                  <td height="31" align="center">&nbsp;</td>
+                  <td align="center">&nbsp;</td>
+                  <td align="center"><strong>Grand Total</strong></td>
+                  <td align="center"><strong>&#8377; 10, 190.00</strong></td>
+                </tr>
+              </tbody>
+            </table></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+        </tbody>
+      </table></td>
+      <td width="3%">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="4">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="32">&nbsp;</td>
+      <td style=" font-size:13px; color:#000; padding:5px; font-family: 'Muli', sans-serif;" width="47%" height="32">&nbsp;</td>
+      <td style=" font-size:13px; color:#000; padding:5px; font-family: 'Muli', sans-serif;" width="47%" align="right">&nbsp;</td>
+      <td height="32">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="4">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="42" colspan="4" align="center" style=" font-size:13px; color:#000; padding:5px; line-height: 25px; font-family: 'Roboto', sans-serif;  background-color: #8ac559; color: #ffffff; border-top: 1px solid #4cbd89">This is computer generated receipt and does not require physical signature.</td>
+    </tr>
+    </tbody>
+</table>
+</div>
+
+
+</body>
+</html>
